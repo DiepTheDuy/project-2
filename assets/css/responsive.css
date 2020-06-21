@@ -1,0 +1,130 @@
+/*Ipad ngang (1024 x 768) */
+@media screen and (max-width: 1280px){
+    #wrapper, .container{
+        width: 100%;
+    }
+    #logo{
+        width: 30%;
+    }
+    #main-menu{
+        width: 70%;
+    }
+    #content #feature-post{
+        width: 100%;
+        padding-right: 34px;
+    }
+    #sidebar ul#list-side li.side-thumb{
+        width: 100%;
+    }
+    #footer-about{
+        width: 25%;
+    }
+    #footer-store{
+        width: 23%;
+    }
+    #footer-category{
+        width: 13%;
+    }
+    #footer-hotline{
+        width: 20%;
+    }
+    #post-thumb #list-thumb .thumb{
+        width: 30%;
+    }
+}
+/*Ipad dọc (768 x 1024) */
+@media screen and (max-width: 768px){  
+        #logo{
+            width: 100%;
+            text-align: left;
+        }
+        #main-menu{
+           display: none;
+        }
+        #menu-icon{
+           display: block;
+        }
+        #content , #sidebar{
+           width: 100%;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #content{
+            border: none;
+        }
+        #content #feature-post{
+            width: 100%;
+        }
+        #post-thumb #list-thumb .thumb{
+            width: 30%;
+        }
+        #sidebar{
+            padding-left: 0px;
+        }
+        #sidebar ul#list-side{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #sidebar ul#list-side li.side-thumb{
+            width: 49%;
+        }
+        #sidebar #add{
+            display: none;
+        }
+        #footer-info{
+            flex-wrap: wrap;
+        }
+        #footer-about{
+            width: 52%;
+        }
+        #footer-store{
+            width: 40%;
+        }
+        #footer-category{
+            width: 52%;
+        }
+        #footer-hotline{
+            width: 40%;
+        }
+
+        #footer #header-footer-info{
+            margin-top: 20px;
+        }
+        #footer #body-footer-info{
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+       
+}
+/*Table nhỏ (480 x 640) */
+@media screen and (max-width: 480px){
+    #content #feature-post{
+        padding-right: 0px;
+    }
+    #post-thumb{
+        padding-right: 0px;
+    }
+    #post-thumb #list-thumb .thumb{
+        width: 49%;
+    }
+    #sidebar ul#list-side li.side-thumb{
+        width: 100%;
+    }
+    #footer-about{
+        width: 100%;
+    }
+    #footer-store{
+        width: 100%;
+    }
+    #footer-category{
+        width: 100%;
+    }
+    #footer-hotline{
+        width: 100%;
+    }
+    
+}
